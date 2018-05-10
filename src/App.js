@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import './App.css';
-import NewComponent from './NewComponent';
-import store from "./store";
 import {connect} from "react-redux";
+
+import './App.css';
+import store from "./store";
+import NewComponent from './NewComponent';
 
 class App extends Component {
 	constructor(props){
